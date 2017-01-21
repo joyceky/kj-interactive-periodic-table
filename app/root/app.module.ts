@@ -8,20 +8,18 @@ import { PeriodicTable } from '../periodic-table/periodic-table.component';
 import { BohrModel } from '../bohr-model/bohr-model.component';
 
 @NgModule({
+declarations: [
+    AppComponent,
+    PeriodicTable,
+    BohrModel
+  ],
   imports: [
     BrowserModule,
     CommonModule,
     FormsModule
   ],
   bootstrap: [
-    AppComponent,
-    PeriodicTable,
-    BohrModel
-  ],
-  declarations: [
-    AppComponent,
-    PeriodicTable,
-    BohrModel
+    AppComponent
   ]
 })
 export class AppModule {}

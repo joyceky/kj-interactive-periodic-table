@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
   template:
   `
     <periodic-table><periodic-table>
+    <bohr-model></bohr-model>
   `
 })
 export class AppComponent {
